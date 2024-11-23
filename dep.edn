@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps  {org.clojure/clojure                         {:mvn/version "1.11.1" :scope "provided"}
+         io.replikativ/datahike                      {:mvn/version "0.6.1555" :scope "provided"}
+         litco/konserve-gcs
+         {:git/url "https://github.com/The-Literal-Company/konserve-gcs.git"
+          :git/sha "2614d26d1ffa7cb05756c6ae81f3512ab9fc3436"}}}
